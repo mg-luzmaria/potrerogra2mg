@@ -1,15 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sixtyfour+Convergence&display=swap');
+body{
+    background-image:url(../img/fondo\ negro2.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 #titulo{
     font-size: 42px;
+    text-align: center;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:darkred;
+    border-color:forestgreen;
+    border-style:double;
+    border-radius: 5px;
+    margin:30px 10px 20px 10px ;
+    padding:15px 0px 15px 0px ;
+   
+
 }
 .subtitulos{
-    color: orangered;
+    color:orange;
     font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:green;
+    border-color:orange;
+    border-style:dashed;
+    border-radius: 5px;
+    margin:25px 10px 25px 10px ;
+    padding:15px 5px 15px 5px ;
+    
 }
+ol,ul{
+    background-color:white;
+    border-color:darkred;
+    border-style: double;
+    border-radius: 5px;
+    margin-bottom: 25px;
+} 
 li{
-    color: magenta;
+    color:darkred;
     font-size:21px ;
+    font-family:"Afacad Flux", sans-serif;
+    margin:0px;
+    padding: 0px;
+   
+   
 }
+
 p,a{
-    color:violet;
+    color:white;
     font-size: 21px;
+    background-color:orange;
+    font-family: "Afacad Flux", sans-serif;
+    border-color:white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+   
+} 
+img{
+    border-color:yellowgreen ;
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 0px;
 }
+    
+iframe{
+    border-color:yellowgreen ;
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 0px;
+}
+hr{
+   border-color: chartreuse;
+   border-style: solid;
+   margin-top: 30px;
+   padding: 0%;
+}
+p{
+    margin:20px 10px 20px 10px;
+    padding: 25px 10px 25px 10px;
+}
+a{
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    margin-right:10px ;
+}
+
+
+
+
